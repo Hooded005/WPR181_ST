@@ -1,0 +1,143 @@
+*{
+    padding:1px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #FDF5E6;
+}
+nav{
+    padding: 10px;
+    border: 2px solid #222;
+}
+ul{
+    display: flex;
+    padding: 10px;
+    gap: auto;
+}
+li{
+    list-style: none;
+    list-style-position: inside;
+}
+ul li a:hover{
+    background-color: lightgrey;
+    border: 2px solid #222;
+    border-radius: 20px;
+    color: black;
+}
+ul li a{
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 20px;
+    padding: 5px 69px;
+    color: white;
+}
+.more{
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    border-radius: 0px;
+    padding: 5px;
+}
+#banner_form{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin-top: 15px;
+}
+#banner{
+    background: url("./images/banner.PNG");
+    background-size: cover;
+    width: 70%;
+    height: 400px;
+    margin-right: 5px;
+}
+#banner h2{
+    margin-top: 5em;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+#back{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+#form{
+    margin-left: 5px;
+    border: 2px solid #222;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+}
+div{
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid #222;
+}
+label{
+    font-size: 30px;
+}
+#forgot{
+    color: #222;
+    background-color: white;
+    font-size: x-small;
+    text-decoration: underline;
+    text-align: left;
+}
+#Login{
+    background-color: #2691d9;
+    color: #222;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+img{
+    width: 150px;
+    height: 120px;
+}
+#teams{
+    display: flex;
+    width: 100%;
+}
+#Ferrari, #RedBull, #Mercedes, #McLaren{
+    width: 24%;
+    padding: 10px;
+    border: 2px solid #222;
+    background-color: white;
+    text-align: center;
+    margin: 1em;
+}
+h4, p{
+    background-color: white;
+}
+#video_text{
+    display: flex;
+    width: 100%;
+}
+#video, #text{
+    width: max-content;
+    height: max-content;
+    padding: 5px;
+    margin: 30px;
+    border: 2px solid  #222;    
+}
+#backG{
+    background-color: #FDF5E6
+}
+footer{
+    margin-bottom: 0px;
+}
+#footer{
+    background-color: #222;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+footer img{
+    width: 250px;
+    height: 100px;
+}
